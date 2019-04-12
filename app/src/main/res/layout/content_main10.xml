@@ -5,30 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.carebandproject.Main5Activity"
-    tools:showIn="@layout/activity_main5">
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="153dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="76dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:gravity="center"
-        android:inputType="textMultiLine"
-        android:text="Step 2"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="@android:color/primary_text_light_nodisable"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:typeface="serif"
-        app:fontFamily="sans-serif-black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context="com.example.carebandproject.Main10Activity"
+    tools:showIn="@layout/activity_main10">
 
     <TextView
         android:id="@+id/textView3"
@@ -41,18 +19,19 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:gravity="center"
-        android:text="Scan floorplan using camera"
+        android:text="SETUP COMPLETE!"
         android:textSize="24sp"
         android:typeface="normal"
         app:fontFamily="sans-serif-medium"
-        app:layout_constraintBottom_toTopOf="@+id/Next5"
+        app:layout_constraintBottom_toTopOf="@+id/Next10"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
 
     <Button
-        android:id="@+id/Next5"
+        android:id="@+id/Next10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -63,5 +42,4 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
-
 </android.support.constraint.ConstraintLayout>

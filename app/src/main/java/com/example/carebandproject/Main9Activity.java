@@ -9,19 +9,19 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-public class Main7Activity extends AppCompatActivity {
+public class Main9Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main7);
+        setContentView(R.layout.activity_main9);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button login = findViewById(R.id.Next7);
+        Button login = findViewById(R.id.Next9);
         login.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
-                Intent myIntent = new Intent(Main7Activity.this, Main8Activity.class);
+                Intent myIntent = new Intent(Main9Activity.this, Main10Activity.class);
                 startActivityForResult(myIntent, 0);
             }
         });

@@ -10,9 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Main11Activity"
+            android:label="@string/title_activity_main11"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Main10Activity"
+            android:label="@string/title_activity_main10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main9Activity"
+            android:label="@string/title_activity_main9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main8Activity"
+            android:label="@string/title_activity_main8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Main7Activity"
             android:label="@string/title_activity_main7"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Main6Activity"
             android:label="@string/title_activity_main6"

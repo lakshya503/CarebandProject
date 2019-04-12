@@ -1,30 +1,20 @@
 package com.example.carebandproject;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
 
-public class Main7Activity extends AppCompatActivity {
+public class Main11Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main7);
+        setContentView(R.layout.activity_main11);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        Button login = findViewById(R.id.Next7);
-        login.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view){
-                Intent myIntent = new Intent(Main7Activity.this, Main8Activity.class);
-                startActivityForResult(myIntent, 0);
-            }
-        });
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
