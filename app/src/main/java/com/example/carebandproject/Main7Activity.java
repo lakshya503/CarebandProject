@@ -26,6 +26,14 @@ public class Main7Activity extends AppCompatActivity {
             }
         });
 
+        Button login2 = findViewById(R.id.help7);
+        login2.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                Intent myIntent = new Intent(Main7Activity.this, Main11Activity.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override

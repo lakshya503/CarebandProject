@@ -18,13 +18,7 @@ public class Main10Activity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button login = findViewById(R.id.Next10);
-        login.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View view){
-                Intent myIntent = new Intent(Main10Activity.this, Main11Activity.class);
-                startActivityForResult(myIntent, 0);
-            }
-        });
+
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

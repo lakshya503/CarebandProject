@@ -31,9 +31,9 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:gravity="center"
         android:inputType="textMultiLine"
         android:text="Welcome to Careband "
-        android:gravity="center"
         android:textSize="30sp"
         android:typeface="normal"
         app:fontFamily="sans-serif-black"
@@ -41,6 +41,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351" />
+        app:layout_constraintVertical_bias="0.393" />
 
 </android.support.constraint.ConstraintLayout>

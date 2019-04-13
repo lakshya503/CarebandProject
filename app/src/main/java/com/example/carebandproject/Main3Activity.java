@@ -18,8 +18,8 @@ public class Main3Activity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button login = findViewById(R.id.Next3);
-        login.setOnClickListener(new View.OnClickListener(){
+        Button login2 = findViewById(R.id.Next3);
+        login2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 Intent myIntent = new Intent(Main3Activity.this, Main4Activity.class);
                 startActivityForResult(myIntent, 0);
