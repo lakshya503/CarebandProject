@@ -13,17 +13,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="104dp"
+        android:background="#3BA6F4"
         android:text="Next"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="197dp"
+        android:layout_width="259dp"
         android:layout_height="83dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
@@ -34,13 +39,24 @@
         android:gravity="center"
         android:inputType="textMultiLine"
         android:text="Welcome to Careband "
-        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
         android:typeface="normal"
         app:fontFamily="sans-serif-black"
-        app:layout_constraintBottom_toTopOf="@+id/Next3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
+        app:layout_constraintVertical_bias="0.578" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="424dp"
+        android:layout_height="287dp"
+        android:layout_marginBottom="416dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@mipmap/blue_background"
+        tools:layout_editor_absoluteX="-8dp" />
 
 </android.support.constraint.ConstraintLayout>

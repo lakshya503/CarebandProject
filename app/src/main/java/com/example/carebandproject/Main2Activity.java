@@ -20,8 +20,8 @@ public class Main2Activity extends AppCompatActivity {
 
 
         // Linking this button to the next page
-        Button login = findViewById(R.id.loginButton);
-        login.setOnClickListener(new View.OnClickListener(){
+        Button login2 = findViewById(R.id.login2Button);
+        login2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 Intent myIntent = new Intent(Main2Activity.this, Main3Activity.class);
                 startActivityForResult(myIntent, 0);

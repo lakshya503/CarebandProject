@@ -39,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         Button login = findViewById(R.id.loginButton);
         login.setOnClickListener(new View.OnClickListener(){
@@ -47,8 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivityForResult(myIntent, 0);
             }
         });
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -64,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     private void registerUser() {
-        final EditText inputEmail = findViewById(R.id.emailAddress);
+        final EditText inputEmail = findViewById(R.id.emailAddress2);
         final EditText inputPassword =findViewById(R.id.password);
         final EditText inputSerialNumber = findViewById(R.id.serialNumber);
 
