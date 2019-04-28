@@ -18,7 +18,7 @@ public class CognitoSettings {
     private Context context;
 
 
-    public CognitoSettings(Context context) {
+    public CognitoSettings(verifyActivity context) {
         this.context = context;
     }
 
